@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Builder</title>
+     <!-- fontawesome--icon link -->
+     <script src="https://kit.fontawesome.com/5f739fbfb8.js" crossorigin="anonymous"></script>
+
+     <!-- font-family link -->
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+         rel="stylesheet">
+ 
+     <!-- bootstrap css link -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+      
+     <!--css link -->
+     <link rel="stylesheet" href="style.css">
+
+     <!-- responsive css link -->
+     <link rel="stylesheet" href="rcss.css">
+
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="container-fluid">
+            <h2>Form Builder</h2>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasDarkNavbar"
+                aria-labelledby="offcanvasDarkNavbarLabel">
+
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Form Builder</h5>
+                    <button type="button" class="btn-close btn-close" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav m-auto lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Let's Create A Dynamic Form</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <button class="add-form-button" onclick="addinput()">
+                                INPUT
+                            </button>
+                        </li>
+                        <li class="nav-item">
+                            <button class="add-form-button" onclick="addtextarea()">
+                                TEXTAREA
+                            </button>
+                        </li>
+                        <li class="nav-item">
+                            <button class="add-form-button" onclick="addemail()">
+                                EMAIL
+                            </button>
+                        </li>
+                        <li class="nav-item">
+                            <button class="add-form-button" onclick="addphone()">
+                                PHONE
+                            </button>
+                        </li>
+                        <li class="nav-item">
+                            <button class="add-form-button" onclick="adddropdown()">
+                                DROPDOWN
+                            </button>
+                        </li>
+                        <li class="nav-item">
+                            <button class="add-form-button" onclick="addcheckbox()">
+                                CHECKBOX
+                            </button>
+                        </li>
+                        <li class="nav-item">
+                            <button class="add-form-button" onclick="addradiobutton()">
+                                RADIOBUTTON
+                            </button>
+                        </li>
+                        <li class="nav-item">
+                            <button class="add-form-button" onclick="addimage()">
+                                IMAGE
+                            </button>
+                        </li>
+                    </ul>
+                    <div class="down-buttons">
+                        <button class="btn"><span></span>
+                            <p data-start="good luck!" data-text="starting!" data-title="Download Form"></p>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <div class="empty container">
+        <div class="row">
+            <div id="add-field">
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Add jQuery library -->
+    <script src="https://code.jquery.com/jquery-3.6.4.js"></script>
+
+    <!-- boostrap script link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- owl carousel -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
+
+

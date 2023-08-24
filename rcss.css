@@ -1,0 +1,86 @@
+@media screen and (max-width:768px) {
+    .offcanvas {
+        width: 285px !important;
+    }
+
+    .down-buttons button {
+        left: -10px;
+    }
+    #add-field{
+        width:660px
+    }
+    .edit-field {
+        width: 325px;
+        height: 25vh;
+    }
+}
+@media screen and (max-width:600px) {
+    #add-field {
+        width: 345px;
+    }
+    textarea {
+        width: 50%;
+    }
+    select{
+        margin-left: 2px;
+    }
+    .input2 {
+        margin-left: 0px;
+    }
+    .btns{
+        font-size: 17px
+    }
+}
+@media screen and (max-width:425px) {
+    .offcanvas {
+        width: 285px !important;
+    }
+
+    .down-buttons button {
+        left: -10px;
+    }
+    #add-field{
+        width:340px
+    }
+    .edit-field {
+        width: 230px;
+        height: 20vh;
+    }
+    .edit-field .closebtn {
+        font-size: 32px;
+    }
+    .nav-item button {
+        font-size: 14px;
+        border-radius: 4px;
+    }
+    .offcanvas {
+        width: 230px !important;
+    }
+    .down-buttons button {
+        left: -10px;
+        font-size: 14px;
+    }
+    .text{
+        font-size: 23px;
+    }
+    input{
+        height: 4vh;
+    }
+    textarea {
+        width: 50%;
+    }
+    select{
+        margin-left: 2px;
+    }
+    .input2 {
+        margin-left: 0px;
+    }
+    .btns{
+        font-size: 17px
+    }
+}
+@media screen and (max-width:320px) {
+    #add-field{
+        width:280px
+    }
+}
